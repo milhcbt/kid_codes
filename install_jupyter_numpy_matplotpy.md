@@ -15,10 +15,10 @@ Berikut langkah menginstall(memasang) jupyter lengkap dgn numpy dan mathplotlib
 7. Masuk ke folder jupyter yang baru dibuat `cd jupyter`
 8. Menyiapkan virtual enviroment python buat jupyter `virtualenv enviroment`
 9. Mengaktifkan virtual enviroment `source enviroment/bin/activate`
-10. Install Jupyter `pip install jupyter`
+10. Install Jupyter `pip install jupyter` **)
 11. Installasi Jupyter sudah selesai, untuk menjalankan jupyter notebook jalankan perintah `jupyter notebook --allow-root`. normalnya tidak harus pakai `--allow-root` tapi karena ubuntu pakai proot ini selalu root (administrator), jadi harus pakai opsih `--allow-root`
 12.  Selanjutnya untuk perhitungan matematika dan bikin graph/diagram butuh library numpy dan matplotlib. install numpy `pip install numpy`, install mathplotlib `pip install mathplotlib`, `pip install wheel' hanya dijalankan kalau belum ada, tapi dalam video sudah ada dari modul sebelumnya jadi tidak dibutuhkan.
-13. Installl numpy dan matplotlib dengan perintah `pip install numpy matplotlib`
+13. Installl numpy dan matplotlib dengan perintah `pip install numpy matplotlib` **)
 
 
 info detail tentang sbb
@@ -28,3 +28,4 @@ info detail tentang sbb
   
 
 *)sesuaikan dgn nama distro, waktu video dibuat namanya` ubuntu-20.04`, saat ini `ubuntu`
+**) di ubuntu termux harus diinstall dengan hak akses root, jika sebagai user biasa gunakan sudo bisa diinstall dgn perintah `apt update && apt upgrade && apt install sudo -y`
