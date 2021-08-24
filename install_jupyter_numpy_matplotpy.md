@@ -28,4 +28,5 @@ info detail tentang sbb
   
 
 *)sesuaikan dgn nama distro, waktu video dibuat namanya` ubuntu-20.04`, saat ini `ubuntu`
+
 **) di ubuntu termux harus diinstall dengan hak akses root, jika sebagai user biasa gunakan sudo bisa diinstall dgn perintah `apt update && apt upgrade && apt install sudo -y`
